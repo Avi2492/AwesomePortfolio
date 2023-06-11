@@ -400,13 +400,22 @@ img {
 }
 /*==================== ABOUT ====================*/
 .about__img {
-  width: 200px;
+  display: flex;
+  width: 100%;
+  max-width: 200px;
+  margin: 0 auto;
   border-radius: 0.5rem;
   justify-content: center;
   align-items: center;
   text-align: center;
   box-shadow: 1px 1px 1px 1px rgb(251, 249, 249);
 }
+
+.about__img img {
+  max-width: 100%;
+  height: auto;
+}
+
 
 .about__description {
   text-align: center;
